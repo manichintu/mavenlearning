@@ -1,0 +1,114 @@
+git clone <url>
+git remote -v----> to know the remote  server connection
+
+
+origin points towards URL remote repo
+master our branch in local machine
+
+git pull origin master
+git push origin master{branch of the remote repo} 
+
+linking LR to RR
+git remote add origin <url>
+
+to remove 
+git remote remove origin <url>  to untrack the repo
+
+to initiate git on local
+git init
+
+to do configuration
+
+git config
+
+to know list 
+
+git config --list
+
+
+to config for profile level
+
+git config --global user.name "mani"
+git config --global user.email "mani123@gmail.com"
+
+to rename
+
+git config --global user.name "kanta"
+git config --global user.email "kanta123@gmail.com"
+
+
+
+to config for folder level(go into the project folder}
+
+git config --local user.name "sandy"
+git config --local user.email "sandy111@gmail.com"
+
+
+git config --list enter
+
+core.bare=false means we are client
+
+
+git show it shows the last commit done on local respository
+
+git log --all
+
+git log --oneline
+
+git log -10(last 10 commits)
+
+git log -p it shows including the content changes
+
+in green color content added to local  repo
+in red color content removed from local repo
+
+in white color content was unchanged
+
+
+PUSH means Checkin
+
+PULL meqns checkout
+
+each checkout is a full copy of a repository  
+
+
+SHA secure hash algorithm
+
+
+ git developed linus torvalds 2005 it is a open source
+
+written in c language
+
+it implemented encryption
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
